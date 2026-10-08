@@ -1,0 +1,19 @@
+[project]
+name = "learn-django"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Angga",email = "Anggalabola44@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "django (>=6.1.2,<7.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "learn_django", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
